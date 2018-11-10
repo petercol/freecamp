@@ -1,11 +1,17 @@
 {
   "name": "freecamp",
+  "dependencies": {
+		"express": "^4.14.0"
+	},
   "version": "1.0.0",
   "description": "tutorial freecamp",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/petercol/freecamp.git"
